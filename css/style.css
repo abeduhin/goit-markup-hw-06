@@ -784,7 +784,7 @@ list-clients-icon:hover .clients-icon {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--decor-color);
     padding: 0;   
-
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .btn-modal:hover, .btn-modal:focus {
@@ -800,7 +800,7 @@ list-clients-icon:hover .clients-icon {
 .bacdrop-icon {
     width: 11px;
     height: 11px;  
-    
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-text {
     font-size: 20px;
@@ -846,6 +846,7 @@ list-clients-icon:hover .clients-icon {
     font-weight:400;
     color:rgba(117, 117, 117, 1);
     margin-bottom: 4px;
+    margin-top: 10px;
 
 }
 .modal-form-icon {
